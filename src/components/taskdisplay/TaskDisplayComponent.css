@@ -1,0 +1,185 @@
+/* Container styling */
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.task-header h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Task details section */
+.task-details {
+    width: 100%;
+    padding-top: 8px;
+}
+
+.task-details label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.task-details p {
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+}
+
+.edit-description {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+    height: 120px; 
+}
+
+.date-edit-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.date-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.date-container p {
+    margin-bottom: 15px;
+}
+
+.edit-button-container {
+    margin-left: 10px;
+}
+
+/* Add Member section */
+.task-actions {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.task-actions select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* Members list */
+.members-list {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.member-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.member-item button {
+    margin-left: 10px;
+}
+
+/* Comments section */
+.comments-section {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.comments-section label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment-input-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.comment-input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+    margin-right: 10px;
+}
+
+.comment-input::placeholder {
+    color: #999;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comment-item {
+    font-weight: normal; 
+}
+.timeline-section {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.timeline-section label {
+    font-size: 20px;
+    font-weight: 700; 
+}
+
+.timeline-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.timeline-item {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.milestone-type {
+    font-weight: normal; /* Make milestone types like IN_QUEUE normal weight */
+}
+
+.delete-button {
+    margin-top: 20px;
+}
+
+.hr-line{
+    border-bottom:1px solid #e0e0e0;
+}

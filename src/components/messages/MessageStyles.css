@@ -1,0 +1,27 @@
+/* Style for the container to increase its width */
+.container-custom {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    width: 100%; /* Ensure it uses full width available */
+    padding: 0 15px; /* Add some padding to prevent text from touching the edges */
+}
+
+/* Other styles remain the same */
+.card-custom {
+    background-color: #39B4F3;
+}
+
+.accordion-item-custom {
+    background-color: #39B4F3;
+}
+
+.accordion-button-custom {
+    color: #000; /* Set text color to black */
+}
+
+.accordion-body-custom {
+    color: #fff;
+}
+
+.card-title-custom {
+    color: #fff;
+}

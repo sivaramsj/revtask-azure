@@ -1,0 +1,66 @@
+/* ProjectCard.css */
+
+.project-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+  transition: transform 0.2s;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #eee; 
+  padding-bottom: 8px; 
+}
+
+.project-header h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.status.completed {
+  background-color: #28a745;
+}
+
+.status.in_progress {
+  background-color: #ffc107;
+}
+
+.status.on_hold {
+  background-color: #dc3545;
+}
+
+.project-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  border-top: 2px solid #eee;
+  padding-top:8px
+}

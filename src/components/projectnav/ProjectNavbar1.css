@@ -1,0 +1,33 @@
+
+  
+  /* Adjust the position of the project name and reset button */
+  .navbar-brand {
+    margin-right: 20px; /* Space between project name and reset button */
+  }
+  
+  /* Adjust the position of the + button */
+  .navbar-nav .btn-primary {
+    margin-left: 10px; /* Space between user count and the plus button */
+  }
+  
+  /* Ensure the + button is not too close to the edge */
+  .navbar-nav .btn-primary {
+    margin-right: 20px; /* Space from the edge */
+  }
+  .profile-icon {
+    width: 30px;  /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    border-radius: 50%; /* Circle shape */
+    margin: 0; /* No margin between icons */
+  }
+  
+  /* Ensure container of profile icons does not add extra space */
+  .navbar-nav.ms-auto {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .navbar-nav.ms-auto img {
+    margin-right: 0; /* No space between icons */
+  }
+  

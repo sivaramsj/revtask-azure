@@ -1,0 +1,149 @@
+/* General form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Increased width of the form */
+    max-width: 1000px; /* Further increased max-width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Added padding for better spacing */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* Background color for better visibility */
+}
+
+/* Center the button container within the form */
+.form .button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Space between button and form fields */
+}
+
+/* Label styling */
+.form label {
+    margin-bottom: 10px; /* Adjusted margin for better spacing */
+    font-weight: bold;
+}
+
+/* Input, select, and textarea styling */
+.form input, .form select, .form textarea {
+    width: 100%; /* Full width of the form container */
+    padding: 10px; /* Adjusted padding to balance height */
+    margin-top: 5px;
+    margin-bottom: 15px; /* Adjusted margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for readability */
+}
+
+/* Button styling */
+.form button {
+    padding: 8px; /* Reduced padding for a smaller button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size for a smaller button */
+    width: 50%; /* Set button width to 50% */
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Button hover effect */
+.form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the "Add" button */
+.add-button {
+    width: 80px;
+    height: 35px;
+    font-size: 14px; /* Adjust font size if needed */
+    padding: 0;
+    line-height: 1; /* Ensure the line height fits the button size */
+    margin-left: 10px; /* Space between input and button */
+  }
+  
+  /* Flex container for "Other Skill" input and button */
+  .other-skill-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+/* Form styling for Bootstrap forms */
+.form textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+
+
+/* Custom skill input styling */
+.form .other-skill-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Custom skill input styling for better alignment with button */
+.form .other-skill-container input {
+    flex: 1; /* Fill the remaining space */
+    margin-right: 10px; /* Space between input and button */
+}
+
+/* Styling for the custom skills list */
+.form .skills-list {
+    margin-top: 15px;
+}
+
+.form .skills-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.form .skills-list li {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px; /* Adjusted padding for compactness */
+    margin-bottom: 5px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%; 
+    margin: auto;
+    margin-bottom: 20px; 
+}
+
+.search-section input[type="text"] {
+    flex: 1; /* Allow the input to stretch and take up available space */
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box; /* Ensure padding is included in the input width */
+}
+
+.search-section button {
+    width: 120px; /* Fixed width for the button */
+    padding: 10px 0; /* Adjust padding for the button */
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0; /* Rounded corners for the right side */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-sizing: border-box; /* Ensure padding is included in the button width */
+}
+
+.search-section button:hover {
+    background-color: #0056b3;
+}
+
+
+
+

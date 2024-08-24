@@ -1,0 +1,109 @@
+/* General Container Styles */
+.message-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Background color set to white */
+}
+
+/* Header Styles */
+.message-header {
+    background-color: #fff; /* Background color set to white */
+    color: #000; /* Text color set to black */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ddd; /* Light border for header */
+}
+
+/* Section Styles */
+.message-section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border for sections */
+    border-radius: 8px;
+    background-color: #fff; /* Background color set to white */
+}
+
+/* Form Styles */
+.message-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border for forms */
+    border-radius: 8px;
+    background-color: #fff; /* Background color set to white */
+}
+
+.message-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.message-form input,
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.message-form button {
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.message-form button:hover {
+    background-color: #0056b3; /* Darker shade for button hover */
+}
+
+/* List Styles */
+.message-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-list-item {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for list items */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Slightly off-white background for list items */
+}
+
+/* Utility Classes */
+.message-text-center {
+    text-align: center;
+}
+
+.message-mt-2 {
+    margin-top: 10px;
+}
+
+.message-mb-2 {
+    margin-bottom: 10px;
+}
+
+/* Alert Styles */
+.message-alert {
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.message-alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-color: #f5c6cb;
+}
